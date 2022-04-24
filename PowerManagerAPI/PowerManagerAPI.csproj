@@ -9,11 +9,12 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PowerManagerAPI</RootNamespace>
-    <AssemblyName>PowerManagerAPI</AssemblyName>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>PowerManagerAPI-new</AssemblyName>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <FileAlignment>512</FileAlignment>
     <ApplicationIcon />
     <StartupObject />
+	<PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -34,5 +35,8 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="Package.nuspec" />
+  </ItemGroup>
+  <ItemGroup>
+	<None Include="LICENSE" Pack="true" Visible="false" PackagePath="" />
   </ItemGroup>
 </Project>

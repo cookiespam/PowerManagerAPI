@@ -2,20 +2,20 @@
 <package >
   
   <metadata>
-    <id>PowerManagerAPI</id>
+    <id>PowerManagerAPI-new</id>
     <version>$version$</version>
-    <authors>Ravatsaas</authors>
-    <owners>Ruben Ravatsaas</owners>
-    <licenseUrl>https://github.com/Ravatsaas/PowerManagerAPI/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/Ravatsaas/PowerManagerAPI</projectUrl>
+    <authors>Ravatsaas, cookiespam</authors>
+    <owners>Ruben Ravatsaas, Liang Jia Sheng</owners>
+    <licenseUrl>https://github.com/cookiespam/PowerManagerAPI/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/cookiespam/PowerManagerAPI</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <copyright>Copyright 2017 Ruben Ravatsaas, Binary Poetry LLC</copyright>
+    <copyright>Copyright 2022, Liang Jia Sheng</copyright>
     <tags>Power Management Manager Setting Plan Scheme API Wrapper</tags>
   </metadata>
 
   <files>
-    <file src="bin\$configuration$\$id$.dll" target="lib\netstandard20"/>
+    <file src="bin\$configuration$\$id$.dll" target="lib\net60"/>
   </files>
   
 </package>
