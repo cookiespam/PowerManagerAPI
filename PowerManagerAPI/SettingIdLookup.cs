@@ -3,13 +3,14 @@ using System.Collections.Generic;
 
 namespace PowerManagerAPI
 {
-    public enum ErrorCode : uint {
-        SUCCESS                 = 0x000,
-        FILE_NOT_FOUND          = 0x002,
+    public enum ErrorCode : uint
+    {
+        SUCCESS = 0x000,
+        FILE_NOT_FOUND = 0x002,
         ERROR_INVALID_PARAMETER = 0x057,
-        ERROR_ALREADY_EXISTS    = 0x0B7,
-        MORE_DATA               = 0x0EA,
-        NO_MORE_ITEMS           = 0x103
+        ERROR_ALREADY_EXISTS = 0x0B7,
+        MORE_DATA = 0x0EA,
+        NO_MORE_ITEMS = 0x103
     }
 
     public enum AccessFlags : uint
@@ -47,6 +48,7 @@ namespace PowerManagerAPI
         PROCFREQMAX,
         PROCTHROTTLEMAX,
         PROCTHROTTLEMIN,
+        PERFBOOSTMODE,
         SYSCOOLPOL,
         HIBERNATEIDLE,
         HYBRIDSLEEP,
@@ -86,6 +88,7 @@ namespace PowerManagerAPI
             { Setting.PROCFREQMAX,      new Guid("75b0ae3f-bce0-45a7-8c89-c9611c25e100") },
             { Setting.PROCTHROTTLEMAX,  new Guid("bc5038f7-23e0-4960-96da-33abaf5935ec") },
             { Setting.PROCTHROTTLEMIN,  new Guid("893dee8e-2bef-41e0-89c6-b55d0929964c") },
+            { Setting.PERFBOOSTMODE,    new Guid("be337238-0d82-4146-a960-4f3749d470c7") },
             { Setting.SYSCOOLPOL,       new Guid("94d3a615-a899-4ac5-ae2b-e4d8f634367f") },
             { Setting.HIBERNATEIDLE,    new Guid("9d7815a6-7ee4-497e-8888-515a05f02364") },
             { Setting.HYBRIDSLEEP,      new Guid("94ac6d29-73ce-41a6-809f-6363ba21b47e") },
