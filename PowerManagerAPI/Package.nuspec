@@ -4,10 +4,10 @@
   <metadata>
     <id>PowerManagerAPI-new</id>
     <version>$version$</version>
-    <authors>Ravatsaas, cookiespam</authors>
+    <authors>Ravatsaas, cookiespam, mann1x</authors>
     <owners>Ruben Ravatsaas, Liang Jia Sheng</owners>
-    <licenseUrl>https://github.com/cookiespam/PowerManagerAPI/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/cookiespam/PowerManagerAPI</projectUrl>
+    <licenseUrl>https://github.com/mann1x/PowerManagerAPI/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/mann1x/PowerManagerAPI</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <copyright>Copyright 2022, Liang Jia Sheng</copyright>
